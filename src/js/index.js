@@ -10,11 +10,11 @@ botaoAlterarTema.addEventListener("click", () => {
 
     if (modoEscuroEstaAtivo) {
 
-        imagemBotaoTrocaDeTema.setAttribute("src", "/src/images/sun.png")
+        imagemBotaoTrocaDeTema.setAttribute("src", "./src/images/sun.png")
         
     } else {
     
-    imagemBotaoTrocaDeTema.setAttribute("src", "/src/images/moon.png")
+    imagemBotaoTrocaDeTema.setAttribute("src", "./src/images/moon.png")
 
     }
 
